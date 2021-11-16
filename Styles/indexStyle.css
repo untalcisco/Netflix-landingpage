@@ -113,3 +113,51 @@ main .text .title{
     font-weight: bold;
     color: var(--redflix);
 }
+main .ask{
+    height: 700px;
+    display: flex;
+}
+main .ask .container{
+    margin-top: 50px;
+}
+main .ask .container p{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--redflix);
+    font-weight: bold;
+}
+main .ask .container h4{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background-color: var(--net-grey);
+    padding: 15px;   
+}
+main .ask .container h3{
+    font-size: 2rem;
+    margin-top: 50px;
+    color: var(--alternative-redflix);
+}
+main .ask .container .email{
+    padding: 10px 100px;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+main .ask .container form a{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: var(--redflix);
+    padding: 8px 10px;
+    margin:-5px;
+}
+.goodbye{
+    height: 50
+    px;
+    font-size: 2rem;
+    text-align: center;
+    color: #45acad;
+    margin-top: 20px;
+}
+.goodbye a{
+    color: var(--redflix);
+}
